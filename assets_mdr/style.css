@@ -3248,6 +3248,89 @@ z-index: -2;
 	align-self: center;
 }
 
+/* text and image ( tim) */
+.tim  *{
+	font-family: Space Grotesk;	
+}
+.tim{
+	background-color: #315fbc;
+	padding: 3rem;
+	border-radius: 1rem;
+}
+.tim-content h3{
+	font-size: 3.4rem;
+	font-weight: 600;
+	
+	line-height: 4.5rem;
+	color: #fff;
+}
+.tim-content h3 span{
+	display: inline-block;
+	color: #f3f3f3;
+	border-radius: 5px;
+	padding: 0.3rem 1rem 0.3rem 0rem;
+	
+	background: linear-gradient(to right, #ffffff06, #5498e1);
+}
+.tim-content h3 + p{
+	font-size: 1.4rem;
+	width: 84%;
+	color: #dfdede	;
+}
+.tim-content p + a {
+	color: #212020	;
+	display: inline-block;
+	margin-top: 1rem;
+	font-size: 1.3rem;
+	font-family: Space Grotesk;
+	background-color: #78a1e3;
+	padding: 0.6rem 1.4rem 0.6rem 1rem;
+	transition: background-color 0.3s ease-in;
+	border-radius: 0.4rem;
+}
+.tim-content p + a:hover{
+	background-color:  #90abd7;
+}
+
+
+/* call-to-action */
+
+.call-to-action{	
+	padding: 5rem 0;	
+	background-image: linear-gradient(to right, #d8680d, #bb6925, #0f0f1029), url("../assets_mdr/img/bgmdr.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.call-to-action h4{
+	font-size:4rem;
+	font-family: Space Grotesk;
+	color: #fff;
+}
+.call-to-action h4 + p{
+	margin-top: 1rem;
+	font-size: 1.3rem;
+	font-family: Space Grotesk;
+	color: #dcdcdc;
+	width: 80%;	
+}
+a.action-call{
+	margin-top: 1rem;
+	padding: 0.6rem 1.4rem 0.6rem 1rem;
+	display: inline-block;
+	font-size: 1.2rem;
+	font-family: Space Grotesk;
+	background-color: #161616;
+	color: #fff;
+	transition: background-color 0.3s ease-in;
+}
+a.action-call:hover{
+	color: #d8d5d5;
+	background-color: #2b2b2b;
+}
+
+
+
 @media screen and (max-width:900px){
 .ef-content h1,
 .ef-content p{
