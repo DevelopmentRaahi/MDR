@@ -3381,33 +3381,64 @@ a.action-call:hover{
 	gap: 5px;
 	}
 	.ef-content h1{
-		font-size: 3.5rem;
+		font-size: 3rem;
+		line-height: 4rem;
+		font-weight: 600;
 	}
 	.ef-content h1 span{
-		font-size: 3.5rem;
+		padding-left: 0rem;
+	}
+	.ef-content h1 + p{
+		font-size: 1.3rem;
 	}
 	.ef-row-2 h3{
-		font-size: 3rem;
+		font-size: 2.1rem;
 	}
 	.claud-content p{
 		font-size: inherit;
 	}
+.tim{
+	background-color: #315fbc;
+	padding: 2rem;
+}
+.tim-content h3{
+	font-size: 2.8rem;
+	font-weight: 600;	
+	line-height: 3.9rem;	
+}
+.tim-content h3 + p{	
+	width: 95%;	
+} 
 	
 }
 @media screen and (max-width:600px) {
 	.cf-header h4{		
-		width: 80%;
+		width: fit-content;
+		font-size: 3rem;
 	}
 	.claud-content h3{
 		font-size: 3rem;
 	}
-.claud-content p{
+	.claud-content p{
 		font-size: 1.4rem;
 		width: 100%;
 	}
 	.claud-content img{
 		width: 100%;
 	}
+	.tim{	
+	padding: 1rem;
+	}
+	.tim-content h3{
+		width: 100%;
+		font-size: 2.3rem;
+		font-weight: 600;	
+		line-height: 2.9rem;	
+	}
+	.tim-content h3 + p{	
+		width: 95%;	
+		font-size: 1.3rem;
+	} 
 }
 
 @media screen and (max-width: 740px) {
