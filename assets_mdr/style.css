@@ -2849,10 +2849,11 @@ z-index: -2;
 .ef-hero{
 	padding: 5rem 0;
 	font-family: Space Grotesk ;
-	background: linear-gradient(to right, #9bbb50be, #fdaa0f);
+	background: linear-gradient(to right, #155cdf, #356adc);
 	background-size: cover;
 	background-color: #acacac1f;
 	position: relative;
+	
 }
 .ef-content h1{
 	font-family: Space Grotesk ;
@@ -2860,13 +2861,14 @@ z-index: -2;
 	font-weight: 600;
 	width: 80%;
 	line-height: 4.5rem;
+	color: #fff;
 }
 .ef-content h1 + p{
 	font-size: 1.5rem;
 	width: 84%;
+	color: #dfdede	;
 }
 .ef-content p + a {
-
 	display: inline-block;
 	margin-top: 1rem;
 	font-size: 1.3rem;
@@ -2878,7 +2880,7 @@ z-index: -2;
 	display: inline-block;
 	padding-inline: 0.5rem;
 	/* border-radius: 5px; */
-	background: linear-gradient(to right, #ffffffbe, #fdaa0f55);
+	background: linear-gradient(to right, #ffffff1b, #1e1e1f55);
 }
 
 .ef-content p + a:hover{
@@ -2888,7 +2890,7 @@ z-index: -2;
 	font-size: 4.5rem;
 	font-family: Space Grotesk ;
 	text-align: center;
-	color: #3b2f2f;
+	color: #eeeeee;
 }
 .ef-image .ef-list{
 	font-size: 1.5rem;
@@ -2898,6 +2900,7 @@ z-index: -2;
 	align-items: left;
 	gap: 10px;
 	width: 85%;
+	color: #dfdede;
  }
  .ef-list li span{
 	display: inline-block;	
@@ -3141,7 +3144,7 @@ z-index: -2;
 	padding: 0rem 1rem;
 	border-radius: 25px;
 	width: fit-content;
-	background:linear-gradient(to right, #fd7d1400, #fd7d1436,#fdaa0f); ;
+	background:linear-gradient(to right, #fd7d1400, #fd7d1436,#6caeff); ;
 }
 .cf-header2 p{
 	font-size: 1.5rem;
