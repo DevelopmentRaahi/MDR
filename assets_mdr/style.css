@@ -3268,8 +3268,7 @@ z-index: -2;
 	display: inline-block;
 	color: #f3f3f3;
 	border-radius: 5px;
-	padding: 0.3rem 1rem 0.3rem 0rem;
-	
+	padding: 0.3rem 1rem 0.3rem 0rem;	
 	background: linear-gradient(to right, #ffffff06, #5498e1);
 }
 .tim-content h3 + p{
@@ -3297,7 +3296,7 @@ z-index: -2;
 
 .call-to-action{	
 	padding: 5rem 0;	
-	background-image: linear-gradient(to right, #d8680d, #bb6925, #0f0f1029), url("../assets_mdr/img/bgmdr.png");
+	background-image: linear-gradient(to right, #1f65f2, #3b5a9a, #0f0f1029), url("../assets_mdr/img/bgmdr.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
