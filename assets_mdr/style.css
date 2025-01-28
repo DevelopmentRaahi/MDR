@@ -3206,6 +3206,7 @@ z-index: -2;
 	
 }
 
+
 .header-table{
 	position: relative;
 }
@@ -3340,6 +3341,12 @@ a.action-call:hover{
 	background-color: #2b2b2b;
 }
 
+.accordion-body ul{	
+	margin-left: 1.5rem;
+}
+.accordion-body ul li{
+	list-style-type: circle;
+}
 
 
 @media screen and (max-width:900px){
